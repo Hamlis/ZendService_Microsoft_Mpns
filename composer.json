@@ -1,0 +1,33 @@
+{
+    "name": "zendframework/zendservice-microsoft-mpns",
+    "description": "OOP wrapper for Microsoft Push Notification Service",
+    "type": "library",
+    "keywords": [
+        "zf2",
+        "mpns",
+        "push",
+        "notification",
+        "microsoft"
+    ],
+    "homepage": "http://packages.zendframework.com/",
+    "license": "BSD-3-Clause",
+    "autoload": {
+        "psr-0": {
+            "ZendService": "library/"
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://packages.zendframework.com/"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "zendframework/zend-http": ">=2.0.0"
+    },
+    "require-dev": {
+        "doctrine/common": ">=2.1",
+        "phpunit/PHPUnit": "3.7.*"
+    }
+}
